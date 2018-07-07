@@ -148,14 +148,14 @@ class Code extends Component {
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
-            <a href="https://rachnaralhan.herokuapp.com/" target="_blank">
+            <a href="https://rrrobofriends.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require("../assets/screenshot_robofriends.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Robofriends</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="https://rachnaralhan.herokuapp.com/" target="_blank">
+                  <PortButton href="https://rrrobofriends.herokuapp.com/" target="_blank">
                     Demo
                 </PortButton>
                   <PortButton
