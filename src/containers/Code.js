@@ -179,6 +179,38 @@ class Code extends Component {
               </UsedList>
             </PortAllText>
           </PortRow>
+          <PortRow>
+            <a href="https://myweatherfinder.herokuapp.com/" target="_blank">
+              <CodeThumbnail src={require("../assets/weatherfinder.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Robofriends</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="https://myweatherfinder.herokuapp.com/" target="_blank">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/ralhanr/WeatherFinder"
+                    target="_blank"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+
+            </PortDescription>
+              <PortDescription>
+
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>Remote API Fetch</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
         </div>
       </div>
     );
