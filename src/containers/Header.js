@@ -37,7 +37,8 @@ class Header extends Component {
         </Link>
         <div>
           <NavLink to='/'>ABOUT</NavLink>
-          <NavLink to='/code'>CODE</NavLink>
+          <NavLink to='/code'>SKILLS</NavLink>
+          <NavLink to='/recentwork'>RECENT WORK</NavLink>
           <NavLink to='/writing'>BLOG</NavLink>
           <NavLink to='/life'>LIFE</NavLink>
           <NavLink to='/contact'>CONTACT</NavLink>

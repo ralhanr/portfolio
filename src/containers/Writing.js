@@ -28,6 +28,10 @@ class Writing extends Component {
             <a href="https://medium.com/rachnas-blog/testing-in-react-a55c98c03430" target="_blank">Testing in React with Jest and Enzyme</a>
             <Date>July 8th, 2018</Date>
           </li>
+          <li>
+            <a href="https://medium.com/rachnas-blog/higher-order-components-in-react-80259d5ec3a9" target="_blank">How to create a Higher Order Component in React</a>
+            <Date>July 9th, 2018</Date>
+          </li>
         </ul>
         <h5>Other:</h5>
         <ul>
