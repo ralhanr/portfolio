@@ -24,6 +24,10 @@ class Writing extends Component {
             <a href="https://medium.com/rachnas-blog/styling-in-react-e496244acbce" target="_blank">Styling in React</a>
             <Date>July 6th, 2018</Date>
           </li>
+          <li>
+            <a href="https://medium.com/rachnas-blog/testing-in-react-a55c98c03430" target="_blank">Testing in React with Jest and Enzyme</a>
+            <Date>July 8th, 2018</Date>
+          </li>
         </ul>
         <h5>Other:</h5>
         <ul>
