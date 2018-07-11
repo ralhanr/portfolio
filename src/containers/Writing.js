@@ -38,7 +38,7 @@ class Writing extends Component {
         </div>
         <ul>
           <li>
-            <a href="https://medium.com/blockchain-fundamentals/stories/published" target="_blank">Ethereum /Blockchain History and Basics</a>
+            <a href="https://medium.com/blockchain-fundamentals/history-7fc963ddd023" target="_blank">Ethereum /Blockchain History and Basics</a>
             <Date>July 11th, 2018</Date>
           </li>
         </ul>
