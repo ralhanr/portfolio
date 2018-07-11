@@ -21,6 +21,7 @@ const AppDiv = styled.div`
 export const CenteredHeader = styled.h4`
   text-align: left;
   margin-bottom: 1.25em;
+  font-family: red;
 `
 
 

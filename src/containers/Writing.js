@@ -12,9 +12,8 @@ class Writing extends Component {
     return (
       <div>
         <div>
-          <CenteredHeader>I write about tech and fitness related topics.</CenteredHeader>
+          <CenteredHeader>React and Redux</CenteredHeader>
         </div>
-        <h5>Tech-related:</h5>
         <ul>
           <li>
             <a href="https://medium.com/@info_4440/why-use-redux-with-react-da4f16d03444" target="_blank">Why use Redux with your React Projects</a>
@@ -33,13 +32,17 @@ class Writing extends Component {
             <Date>July 9th, 2018</Date>
           </li>
         </ul>
-        <h5>Other:</h5>
+        <div>
+        <br />
+          <CenteredHeader>Blockchain and Ethereum</CenteredHeader>
+        </div>
         <ul>
           <li>
-            <a href="" target="_blank"></a>
-            <Date></Date>
+            <a href="https://medium.com/blockchain-fundamentals/stories/published" target="_blank">Ethereum /Blockchain History and Basics</a>
+            <Date>July 11th, 2018</Date>
           </li>
         </ul>
+        <br />
         <div>
           <CenteredHeader>Read more on <a href="https://medium.com/rachnas-blog/stories/published" target="_blank"><i className="fa fa-medium fa-fw" />Medium</a>.</CenteredHeader>
         </div>
