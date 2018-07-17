@@ -38,8 +38,16 @@ class Writing extends Component {
         </div>
         <ul>
           <li>
-            <a href="https://medium.com/blockchain-fundamentals/history-7fc963ddd023" target="_blank">Ethereum /Blockchain History and Basics</a>
+            <a href="https://medium.com/blockchain-fundamentals/history-7fc963ddd023" target="_blank">History of Ethereum</a>
             <Date>July 11th, 2018</Date>
+          </li>
+          <li>
+            <a href="https://medium.com/blockchain-fundamentals/what-is-a-smart-contract-a6ec10b3662d" target="_blank">What is a Smart Contract</a>
+            <Date>July 16th, 2018</Date>
+          </li>
+          <li>
+            <a href="https://medium.com/blockchain-fundamentals/what-is-a-dapp-2f5fcdbbd2cb" target="_blank">What is a Decentralized Application DAPP</a>
+            <Date>July 17th, 2018</Date>
           </li>
         </ul>
         <br />
