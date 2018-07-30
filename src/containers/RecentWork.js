@@ -11,6 +11,13 @@ const PortRow = styled.div`
   display: block;
 `;
 
+const CodeThumbnailSmall = styled.img`
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+`;
+
 const CodeThumbnail = styled.img`
   width: 50%;
   height: auto;
@@ -113,7 +120,7 @@ class Code extends Component {
         </div>
         <hr />
         <div>
-          <CenteredHeader>Recent work:</CenteredHeader>
+          <CenteredHeader><b>Recent work:</b></CenteredHeader>
           <PortRow>
           <h4>I have created this complete website in React. Code is available on github in the link below.</h4>
             <PortAllText>
@@ -148,12 +155,13 @@ class Code extends Component {
           <hr />
 
           <PortRow>
+          <PortTitle>Shopping Cart</PortTitle>
             <a href="https://shoppingcart12.herokuapp.com/" target="_blank">
-              <CodeThumbnail src={require("../assets/shoppingCart.png")} />
+              <CodeThumbnailSmall src={require("../assets/shoppingCart.png")} />
             </a>
+            <br />
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Shopping Cart</PortTitle>
                 <PortButtonContainer>
                   <PortButton href="https://shoppingcart12.herokuapp.com/" target="_blank">
                     Demo
@@ -182,12 +190,13 @@ class Code extends Component {
           <hr />
 
           <PortRow>
+          <PortTitle>Robofriends</PortTitle>
             <a href="https://rrrobofriends.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require("../assets/screenshot_robofriends.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Robofriends</PortTitle>
+                
                 <PortButtonContainer>
                   <PortButton href="https://rrrobofriends.herokuapp.com/" target="_blank">
                     Demo
@@ -215,12 +224,14 @@ class Code extends Component {
           </PortRow>
           <hr />
           <PortRow>
+          <PortTitle>Find Weather using City and Country</PortTitle>
             <a href="https://myweatherfinder.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require("../assets/weatherfinder.png")} />
             </a>
+            <br /> <br />
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Find Weather using City and Country</PortTitle>
+                
                 <PortButtonContainer>
                   <PortButton href="https://myweatherfinder.herokuapp.com/" target="_blank">
                     Demo
