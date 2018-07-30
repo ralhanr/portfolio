@@ -12,7 +12,8 @@ const PortRow = styled.div`
 `;
 
 const CodeThumbnail = styled.img`
-  width: 100%;
+  width: 50%;
+  height: auto;
   display: block;
   margin: 0 auto;
 `;
@@ -115,9 +116,6 @@ class Code extends Component {
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
           <h4>I have created this complete website in React. Code is available on github in the link below.</h4>
-            <a href="http://rachnaralhan.com/" target="_blank">
-              <CodeThumbnail src={require("../assets/screenshotwebsite.png")} />
-            </a>
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Rachna's Website</PortTitle>
@@ -148,6 +146,41 @@ class Code extends Component {
             </PortAllText>
           </PortRow>
           <hr />
+
+          <PortRow>
+            <a href="https://shoppingcart12.herokuapp.com/" target="_blank">
+              <CodeThumbnail src={require("../assets/shoppingCart.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Shopping Cart</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="https://shoppingcart12.herokuapp.com/" target="_blank">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/ralhanr/shoppingCart"
+                    target="_blank"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+
+            </PortDescription>
+              <PortDescription>
+
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>React-BootStrap</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr />
+
           <PortRow>
             <a href="https://rrrobofriends.herokuapp.com/" target="_blank">
               <CodeThumbnail src={require("../assets/screenshot_robofriends.png")} />
